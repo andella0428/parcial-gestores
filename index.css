@@ -68,8 +68,11 @@ span{
 .Galeria{
     height: vh;
 }
-.Datos{
+#Datos{
+    width: 100%;
     height: 100vh;
+    display: flex;
+
 }
 .contenedor{
     margin-top: 100px;
@@ -272,4 +275,14 @@ table{
     width: 85%;
     font-size: medium;
 }
-
+.info{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-dos{
+    width: 800px;
+    text-align: left;
+}
